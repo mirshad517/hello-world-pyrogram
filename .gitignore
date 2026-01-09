@@ -1,7 +1,10 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -19,11 +22,21 @@ wheels/
 .installed.cfg
 *.egg
 
-.env
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Pyrogram session files
 *.session
 *.session-journal
 
-venv/
-ENV/
-env/
-.venv
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
